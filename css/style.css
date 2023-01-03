@@ -257,51 +257,21 @@ div.social-icon i:hover {
 }
 
 /* Section 6 */
-.row6 {
-    position: relative;
-    height: 300px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-image: url("https://placekitten.com/1200/800");
+.row6{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.509),rgba(0, 0, 0, 0.648)),url("https://placekitten.com/1200/800");
+    background-repeat: no-repeat;
     background-size: cover;
-}
-
-.row6::before {
-    content: "";
-    position: absolute;
-    height: 300px;
-    top: 0px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    background-color: rgba(30, 30, 30, 0.7);
-}
-
-.card6 {
-    position: absolute;
     color: white;
-}
-
-div.box6 {
-    float: left;
-    width: 33.33%;
-    padding: 80px;
-    font-size: 30px;
-    font-weight: bolder;
+    align-items: center;
+    justify-items: center;
+    background-position: center;
+    height: 40vh;
+    width: 100%;
     text-align: center;
-}
-
-div.box6 i {
-    font-size: 50px;
-    padding: 20px;
-}
-
-div.box6::after {
-    display: table;
-    clear: both;
-    content: " ";
+    font-size: 3vh;
+    font-weight: bolder;
 }
 
 /* Section 7 */
