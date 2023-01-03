@@ -102,9 +102,10 @@
 
 
 /* Section 6 */
-@media only screen and (max-width:600px) {
-    .row6 {
-        display: none;
+@media only screen and (max-width:600px){
+    .row6{
+        grid-template-columns: 100%;
+        height: 60vh;
     }
 }
 
